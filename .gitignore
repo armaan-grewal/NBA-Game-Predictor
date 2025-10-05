@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+venv/
+
+# Data files
+scores(real data)
+standings(real data)
+nba_games.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store

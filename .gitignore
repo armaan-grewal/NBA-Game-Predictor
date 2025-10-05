@@ -3,9 +3,9 @@
 venv/
 
 # Data files
-# data/scores/
-# data/standings/
- nba_games.csv
+data/scores/
+data/standings/
+nba_games.csv
 
 # Python cache files
 __pycache__/

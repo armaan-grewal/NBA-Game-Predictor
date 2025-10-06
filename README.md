@@ -47,19 +47,19 @@ The project has three main components:
 2. **Scrape the data (running this program will take a long time):**
    - Run:
      ```bash
-     python src/scraper.py
+     python3 src/scraper.py
      ```
 
 3. **Parse and clean the data:**
    - Run:
      ```bash
-     python src/parser.py
+     python3 src/parser.py
      ```
 
 4. **Train and test the model:**
    - Run:
      ```bash
-     python src/predictor.py
+     python3 src/predictor.py
      ```
 
 5. **Note:**  

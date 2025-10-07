@@ -66,7 +66,7 @@ def read_season(soup):
     season = os.path.basename(hrefs[1]).split("_")[0]
     return season
 
-def main()
+def main():
     # %%
     base_cols = None
     games = []

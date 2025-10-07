@@ -5,15 +5,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from io import StringIO
 
-# %%
-SCORE_DIR = "data/scores"
-
-# %%
-box_scores = os.listdir(SCORE_DIR)
-
-# %%
-box_scores = [os.path.join(SCORE_DIR, file) for file in box_scores if file.endswith(".html")]
-
 
 # %%
 def parse_html(box_score):
@@ -67,6 +58,17 @@ def read_season(soup):
     return season
 
 def main():
+
+    # %%
+    SCORE_DIR = "data/scores"
+
+    # %%
+    box_scores = os.listdir(SCORE_DIR)
+
+    # %%
+    box_scores = [os.path.join(SCORE_DIR, file) for file in box_scores if file.endswith(".html")]
+
+
     # %%
     base_cols = None
     games = []
